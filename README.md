@@ -27,8 +27,3 @@ To run the chatbot application:
 ```bash
 python chatbot.py
 ```
-
-## License
-
-This project is licensed under the MIT License.
-
