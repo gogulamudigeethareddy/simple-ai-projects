@@ -9,7 +9,7 @@ This repository contains simple AI projects implemented in Python. The main proj
 - `uv.lock` - Lock file for dependencies.
 - `README.md` - Project documentation.
 
-## Setup Instructions
+## Setup
 
 1. **Clone the repository:**
    ```bash
