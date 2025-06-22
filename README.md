@@ -13,7 +13,7 @@ This repository contains simple AI projects implemented in Python. The main proj
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/simple-ai-projects.git
+   git clone https://github.com/username/simple-ai-projects.git
    cd simple-ai-projects
    ```
 2. **Install dependencies with [uv](https://github.com/astral-sh/uv):**
