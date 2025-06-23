@@ -1,29 +1,48 @@
-# Simple AI Projects
+# AI Assistant Chatbot
 
-This repository contains simple AI projects implemented in Python. The main project in this repository is a chatbot application.
+This project is a simple AI-powered chatbot web app built with [Streamlit](https://streamlit.io/) and [LangChain](https://python.langchain.com/). It uses OpenAI's GPT-4o model to provide conversational AI capabilities.
 
-## Project Structure
+## Features
+- Chat with an AI assistant in your browser
+- Remembers chat history during your session
+- Powered by OpenAI's GPT-4o via LangChain
+- Easy to run locally
 
-- `chatbot.py` - Main Python script for the chatbot application.
-- `pyproject.toml` - Project dependencies and configuration.
-- `uv.lock` - Lock file for dependencies.
-- `README.md` - Project documentation.
+## Requirements
+- Python 3.8+
+- An OpenAI API key ([get one here](https://platform.openai.com/account/api-keys))
 
-## Setup
-
+## Installation
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/username/simple-ai-projects.git
+   git clone https://github.com/yourusername/simple-ai-projects.git
    cd simple-ai-projects
    ```
-2. **Install dependencies with [uv](https://github.com/astral-sh/uv):**
+2. **Install dependencies:**
    ```bash
-   uv pip install -r pyproject.toml
+   pip install -r requirements.txt
    ```
+   Or, if using [uv](https://github.com/astral-sh/uv):
+   ```bash
+   uv pip install -r requirements.txt
+   ```
+3. **Set up environment variables:**
+   - Create a `.env` file in the project root with your OpenAI API key:
+     ```env
+     OPENAI_API_KEY=your-openai-api-key
+     ```
 
 ## Usage
-
-To run the chatbot application:
+Run the chatbot app with Streamlit:
 ```bash
-python chatbot.py
+streamlit run chatbot.py
 ```
+Open the URL in your browser to start chatting with the AI assistant.
+
+## File Overview
+- `chatbot.py` — Main Streamlit app
+- `pyproject.toml` — Project metadata and dependencies
+- `uv.lock` — Lockfile for reproducible installs (if using uv)
+- `README.md` — This file
+
+
